@@ -1,5 +1,5 @@
 library(tabulizer)
-#works, but last couple of columns garbled
+#works, but last couple of rows garbled
 warham90 <- extract_tables("warham90.pdf", pages=2)[[2]]
 #blank shiny window
 locate_areas("warham90.pdf", pages=2)
